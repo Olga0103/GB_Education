@@ -6,8 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="GB_HomeWorks" />
+        <module name="rabbit_demos" />
+        <module name="rabbit_console" />
+        <module name="rabbit_spring" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rabbit_demo" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="GB_HomeWorks" options="-parameters" />
+      <module name="rabbit_console" options="" />
+      <module name="rabbit_demos" options="" />
+      <module name="rabbit_spring" options="-parameters" />
+    </option>
   </component>
 </project>
