@@ -1,8 +1,8 @@
-package ru.gb.guess_the_number;
+package ru.gb.guess_what;
 
 import java.util.Scanner;
 
-public class Main {
+public class GuessTheNumber {
 
     public static void main(String[] args) {
         guessTheNumber();
