@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rabbitmq_spring" />
         <module name="rabbitmq_console" />
         <module name="rabbitmq_demos" />
+        <module name="zoo" />
+        <module name="rabbitmq_spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

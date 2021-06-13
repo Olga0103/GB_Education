@@ -11,6 +11,7 @@
 
     <modules>
         <module>rabbitmq_demos</module>
+        <module>zoo</module>
 
     </modules>
 
