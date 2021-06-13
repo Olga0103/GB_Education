@@ -11,7 +11,7 @@
 
     <modules>
         <module>rabbitmq_demos</module>
-        <module>simple_hw_level_1</module>
+        <module>simple_hw</module>
 
     </modules>
 

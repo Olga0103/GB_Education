@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="rabbitmq_console" />
         <module name="rabbitmq_demos" />
-        <module name="simple_hw_level_1" />
         <module name="rabbitmq_spring" />
+        <module name="simple_hw" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
