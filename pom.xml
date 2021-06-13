@@ -12,7 +12,6 @@
     <modules>
         <module>rabbitmq_demos</module>
         <module>simple_hw</module>
-
     </modules>
 
 
