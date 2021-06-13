@@ -1,4 +1,4 @@
-package ru.gb.simple.zoo;
+package ru.gb.simple_zoo;
 
 public class Dog extends Animals{
 

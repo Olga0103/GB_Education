@@ -1,4 +1,4 @@
-package ru.gb.DescktopWindow;
+package ru.gb.descktop_window;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

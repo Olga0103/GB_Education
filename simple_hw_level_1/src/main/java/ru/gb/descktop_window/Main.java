@@ -1,4 +1,4 @@
-package ru.gb.DescktopWindow;
+package ru.gb.descktop_window;
 
 public class Main {
 
