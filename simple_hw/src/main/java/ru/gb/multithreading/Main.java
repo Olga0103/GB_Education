@@ -26,8 +26,6 @@ public class Main {
         System.out.println();
     }
 
-
-
     private void doTwo(){
         System.out.println("2. Разделение массивов");
         float[] arr = new float[size];
@@ -37,7 +35,6 @@ public class Main {
         long start = System.currentTimeMillis();
         System.arraycopy(arr, 0, arr1, 0, h);
         System.arraycopy(arr2, 0, arr, h, h);
-
 
         Thread thread1 = new Thread(() ->this.methodTwoInternal(arr1, 1));
         Thread thread2 = new Thread(() ->this.methodTwoInternal(arr2, 2));
