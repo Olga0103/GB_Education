@@ -7,12 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rabbitmq_console" />
-        <module name="rabbitmq_demos" />
+        <module name="network_client" />
         <module name="rabbitmq_spring" />
         <module name="simple_hw" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="GB_HomeWorks" target="1.5" />
+      <module name="network_chat" target="11" />
+      <module name="network_client" target="11" />
+      <module name="network_client_server" target="11" />
+      <module name="network_server" target="11" />
       <module name="rabbit_demos" target="11" />
     </bytecodeTargetLevel>
   </component>
