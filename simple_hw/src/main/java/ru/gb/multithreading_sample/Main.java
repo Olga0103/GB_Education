@@ -1,4 +1,4 @@
-package ru.gb.multithreading;
+package ru.gb.multithreading_sample;
 
 import java.util.Arrays;
 
