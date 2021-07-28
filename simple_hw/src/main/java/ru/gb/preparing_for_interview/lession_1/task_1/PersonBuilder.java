@@ -2,42 +2,42 @@ package ru.gb.preparing_for_interview.lession_1.task_1;
 
 public class PersonBuilder implements Builder{
 
-    private FirstName firstName;
-    private LastName lastName;
-    private MiddleName middleName;
-    private Country country;
-    private Address address;
-    private Phone phone;
+    private String firstName;
+    private String lastName;
+    private String  middleName;
+    private String  country;
+    private String address;
+    private String phone;
     private int age;
     private Gender gender;
 
     @Override
-    public void setFirstName(FirstName firstName){
+    public void setFirstName(String firstName){
         this.firstName = firstName;
     }
 
     @Override
-    public void setLastName(LastName lastName){
+    public void setLastName(String lastName){
         this.lastName = lastName;
     }
 
     @Override
-    public void setMiddleName(MiddleName middleName){
+    public void setMiddleName(String middleName){
         this.middleName = middleName;
     }
 
     @Override
-    public void setCountry(Country country){
+    public void setCountry(String country){
         this.country = country;
     }
 
     @Override
-    public void setAddress(Address address){
+    public void setAddress(String address){
         this.address = address;
     }
 
     @Override
-    public void setPhone(Pnone pnone){
+    public void setPhone(String phone){
         this.phone = phone;
     }
 
@@ -49,6 +49,10 @@ public class PersonBuilder implements Builder{
     @Override
     public void setGender(Gender gender){
         this.gender = gender;
+    }
+
+    public Person getResult(){
+        return new Person(firstName, lastName, middleName, country, address, phone, age, gender);
     }
 }
 
