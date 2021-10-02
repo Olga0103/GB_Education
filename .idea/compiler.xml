@@ -8,14 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rabbitmq_console" />
+        <module name="independent_work_book_catalog" />
         <module name="rabbitmq_spring" />
         <module name="simple_hw" />
-        <module name="independed_work_book_catalog" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="independent_work" target="11" />
-      <module name="independent_work_product_catalog" target="11" />
       <module name="network_chat" target="11" />
       <module name="network_client" target="11" />
       <module name="network_client_server" target="11" />
