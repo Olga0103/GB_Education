@@ -1,4 +1,4 @@
-package ru.gb.iw.product_catalog.constants;
+package ru.gb.constants;
 
 public enum AmountRateType {
     AMOUNT, //@AMOUNT used for cases where an amount is used to give a discount

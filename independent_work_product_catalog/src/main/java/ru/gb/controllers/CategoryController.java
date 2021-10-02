@@ -1,7 +1,7 @@
-package ru.gb.iw.product_catalog.controllers;
+package ru.gb.controllers;
 
 import org.springframework.web.bind.annotation.*;
-import ru.gb.iw.product_catalog.models.Category;
+import ru.gb.models.Category;
 
 
 @RestController

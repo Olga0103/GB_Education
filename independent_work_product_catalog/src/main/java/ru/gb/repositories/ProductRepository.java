@@ -1,8 +1,8 @@
-package ru.gb.iw.product_catalog.repositories;
+package ru.gb.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import ru.gb.iw.product_catalog.models.Product;
+import ru.gb.models.Product;
 
 import java.util.UUID;
 

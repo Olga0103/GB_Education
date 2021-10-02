@@ -1,4 +1,4 @@
-package ru.gb.iw.product_catalog.models;
+package ru.gb.models;
 
 import org.hibernate.annotations.Type;
 

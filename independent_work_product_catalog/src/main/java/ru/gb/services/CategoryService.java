@@ -1,4 +1,4 @@
-package ru.gb.iw.product_catalog.services;
+package ru.gb.services;
 
 import org.springframework.stereotype.Service;
 

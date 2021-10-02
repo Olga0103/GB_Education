@@ -13,6 +13,7 @@
         <module>rabbitmq_demos</module>
         <module>simple_hw</module>
         <module>independent_work</module>
+        <module>independed_work_book_catalog</module>
     </modules>
     <dependencies>
         <dependency>
