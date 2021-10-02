@@ -12,8 +12,8 @@
     <modules>
         <module>rabbitmq_demos</module>
         <module>simple_hw</module>
-        <module>independent_work</module>
-        <module>independed_work_book_catalog</module>
+        <module>independent_work_book_catalog</module>
+        <module>independent_work_product_catalog</module>
     </modules>
     <dependencies>
         <dependency>
