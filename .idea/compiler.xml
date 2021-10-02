@@ -14,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="independent_work" target="11" />
       <module name="independent_work_product_catalog" target="11" />
       <module name="network_chat" target="11" />
       <module name="network_client" target="11" />
