@@ -17,5 +17,13 @@
         <module>rabbitmq_console</module>
         <module>rabbitmq_spring</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.no-hope</groupId>
+            <artifactId>springapp</artifactId>
+            <version>0.2.3</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>
